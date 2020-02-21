@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link type="text/css" rel="stylesheet" href="css/mainstyle.css">
+        <link type="text/css" rel="stylesheet" href="style/style.css">
+        <script type="text/javascript" src="js/mainjs.js"></script>
+    </head>
+    <body onload="checkFio (); checkNumber();" >
+        <div class="info_person">
+            <div class="quest">Задать вопрос</div> 
+                <form action="testpost.php" method="post" onsubmit="return validateName();">
+                    <input  name="name" id="name" placeholder="Фамилия Имя Отчество *">
+                    <input  name="phone" id="phone" placeholder="Телефон *">
+                    <input  name="email" id="mail" placeholder="Email">
+                    <button type="submit" class="send_info">ОТПРАВИТЬ ЗАПРОС</button>
+                </form>
+            </div>
+        </div>
+        <script>
+            window.onload = checkFio ();
+            window.onload = checkNumber();
+        </script>
+    </body>
+</html>

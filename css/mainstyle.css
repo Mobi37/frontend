@@ -1,0 +1,83 @@
+body{
+    background-color: white;
+}
+
+.info_person{
+    font-family: Roboto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 477px;
+    height: 392px;
+    border-radius: 14px;
+    background-color: #F7F5F9;
+    box-shadow: 6px 6px 20px -2px rgb(194, 188, 188);
+    font-size: 25.8px;
+}
+.quest{
+    font-size: 24px;
+    margin-left: 37px;
+    padding-top: 34px;
+    font-weight: bold;  
+}
+#name{
+    font-family: Roboto;
+    width: 351.88px;
+    height: 25px;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 33px;
+    margin-left: 36px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+}
+
+#phone{
+    font-family: Roboto;
+    width: 351.88px;
+    height: 18px;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 7px;
+    margin-top: 26px;
+    font-size: 15px;
+    margin-left: 36px;
+    padding-right: 34px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 15px;
+    border: none;
+}
+
+#mail{
+    font-family: Roboto;
+    width: 351.88px;
+    height: 18px;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 7px;
+    margin-top: 26px;
+    font-size: 15px;
+    margin-left: 36px;
+    padding-right: 34px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 15px;
+    border: none;
+}
+
+.send_info{
+    font-family: Roboto;
+    color: white;
+    width: 401px;
+    height: 48px;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    margin-top: 25px;
+    font-size: 17px;
+    background: #6979F8;
+    margin-left: 37px;
+    padding-top: 4px;
+    padding-left: 5px;
+    border: none;
+}
